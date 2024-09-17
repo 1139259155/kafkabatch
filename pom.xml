@@ -7,6 +7,38 @@
     <groupId>com.pengbo.kafkabatch</groupId>
     <artifactId>kafkabatch</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <maven.compiler.source>11</maven.compiler.source>
+
+        <maven.compiler.target>11</maven.compiler.target>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>tech.tablesaw</groupId>
+            <artifactId>tablesaw-core</artifactId>
+            <version>0.43.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dflib</groupId>
+            <artifactId>dflib-bom</artifactId>
+            <version>1.0.0-M22</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.dflib</groupId>
+            <artifactId>dflib</artifactId>
+            <version>1.0.0-M22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dflib</groupId>
+            <artifactId>dflib-csv</artifactId>
+            <version>1.0.0-M22</version>
+        </dependency>
+    </dependencies>
 </project>

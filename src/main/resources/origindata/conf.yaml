@@ -1,0 +1,23 @@
+data:
+  basic:
+    objectName: student
+    number: 100000
+  schema:
+    # id,name,age,gender,birthday
+    - field: id
+      type: UUID
+      length: 36
+      # 2e1878f8-d8f5-c89c-7bc4-712d9d94aea9
+      # (8-4-4-4-12)
+    - field: name
+      type: String
+      length: 64
+    - field: age
+      type: int
+      length: 18-30
+    - field: gender
+      type: String
+      length: female|male
+    - field: birthday
+      type: Date
+      length: YYYY-MM-DD
