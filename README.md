@@ -14,3 +14,10 @@
 dataframe
 dflib
 jtablesaw
+
+分析
+    继续使用kafka
+        如何规整kafka中数据
+        数据要求是什么
+    不使用kafka
+        如何改造端到端流程![image](https://github.com/user-attachments/assets/eae33683-de40-4663-b133-21c82973480a)
